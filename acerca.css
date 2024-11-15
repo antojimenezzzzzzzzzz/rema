@@ -1,0 +1,32 @@
+#card {
+    margin:auto;
+    margin-top: 80px;
+    width: 300px;
+}
+#ola {
+    margin:auto;
+    margin-top: 100px;
+    width: 320px;
+    font-family: cursive;
+    color: #000000;
+}
+
+#cuerpo {
+    background-color: #ffe7e7;
+}
+
+#boton {
+     background-color: #ec7a68;
+     color: #ffe7e7;
+     border-color: #ffe7e7;
+}
+
+
+#logo {
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
