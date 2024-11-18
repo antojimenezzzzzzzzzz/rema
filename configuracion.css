@@ -1,0 +1,85 @@
+
+:root {
+    --rosa-pastel: #F7ADAF;
+    --rosa-claro: #ffe7e7;
+    --rosa-oscuro: #ec7a68;
+    --fondo-suave: #ffe7e7;
+}
+
+
+body {
+    background-color: var(--fondo-suave);
+    font-family: 'Arial', sans-serif;
+}
+
+
+header {
+    background-color: var(--rosa-pastel);
+    color: white;
+    padding: 15px 0;
+}
+
+
+.config-section {
+    background-color: var(--rosa-claro);
+    border: 1px solid var(--rosa-pastel);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.config-section h2 {
+    color: var(--rosa-oscuro);
+}
+
+
+footer {
+    background-color: var(--rosa-pastel);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.btn-rosa {
+    background-color: var(--rosa-pastel);
+    color: white;
+}
+
+
+.btn-rosa:hover {
+    background-color: var(--rosa-oscuro);
+    color: white;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-title {
+    color: var(--rosa-oscuro);
+}
+
+#navbar{
+    background-color: #ffe7e7;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+#boton {
+    background-color: #ec7a68;
+    color: #ffe7e7;
+    border-color: #ffe7e7;
+}
