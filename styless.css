@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe7e7;
+}
+img{
+    border-radius: 50%;
+    
+}
+
+header {
+    background-color: #f7a8b8; 
+}
+
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #f7a8b8;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color:#F7ADAF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#navbar{
+    background-color: #f7ADAF;
+}
+#boton {
+    background-color: #ec7a68;
+    color: #ffe7e7;
+    border-color: #ffe7e7;
+}

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Cambiar el color de fondo del encabezado a rosa */
+header {
+    background-color: #f7a8b8; /* Rosa */
+}
+
+/* Estilo de la foto de perfil */
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+/* Estilo del menú hamburguesa */
+#menu-button {
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Estilo de las tarjetas */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

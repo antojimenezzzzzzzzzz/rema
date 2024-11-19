@@ -3,14 +3,6 @@
     margin-top: 80px;
     width: 300px;
 }
-#ola {
-    margin:auto;
-    margin-top: 100px;
-    width: 320px;
-    font-family: cursive;
-    color: #000000;
-}
-
 #cuerpo {
     background-color: #ffe7e7;
 }
@@ -29,4 +21,13 @@
     background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
+}
+#navbar{
+    background-color: #F7ADAF;
+}
+footer {
+    background-color: #F7ADAF;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
