@@ -36,3 +36,9 @@ background-color: #ffe7e7;
 #guardar{
     margin: auto;
 }
+footer {
+    background-color: var(--rosa-pastel);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
