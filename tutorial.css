@@ -1,6 +1,6 @@
 
     body {
-        display: flex;
+
         flex-direction: column;
         align-items: center;
         min-height: 100vh;
@@ -19,18 +19,18 @@
     }
 
     .image-container img {
-        width: 100%;
-        max-width: 400px;
-        height: auto;
+        width: 800%;
+        max-width: 450px;
         object-fit: cover;
         border-radius: 10px;
+        margin:auto;
     }
 
     .instructions {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: 50%;
     }
 
     h1 {
@@ -58,4 +58,10 @@
    }
    #navbar{
     background-color: #F7ADAF;
+    }
+    footer {
+        background-color: #F7ADAF;
+        color: white;
+        text-align: center;
+        padding: 10px;
     }
